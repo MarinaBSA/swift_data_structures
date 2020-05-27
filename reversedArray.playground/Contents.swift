@@ -2,8 +2,8 @@ import Foundation
 
 // Complete the reverseArray function below.
 func reverseArray(a: [Int]) -> [Int] {
-    let count = a.count;
-    var temp = 0;
+    let count = a.count
+    var temp = 0
     var reversedArray = a
     var i = 0
     while(i < count/2) {
